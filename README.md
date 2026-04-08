@@ -3,15 +3,17 @@
 ## Структура проекта
 
 ```
-tep_reboiler/
+tep_diplom/
 ├── reboiler_model.py   ← ВНУТРЕННИЙ БЛОК: процесс + ВНЕШНИЙ БЛОК: управление
 └── benchmark.py        ← бенчмарк обнаружения неисправностей
+└── app.py              ← графический интерфейс для управления процессом
+└── requirements.txt    ← зависимости
 ```
 
 ## Установка зависимостей
 
 ```bash
-pip install numpy scipy matplotlib scikit-learn
+pip install -r requirements.txt
 ```
 
 ## Запуск
