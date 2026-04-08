@@ -26,6 +26,11 @@ python reboiler_model.py
 python benchmark.py
 ```
 
+### Запуск графического интерфейса
+```bash
+python -m streamlit run .\app.py  
+```
+
 ---
 
 ## Архитектура модели
